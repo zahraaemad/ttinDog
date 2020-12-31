@@ -1,0 +1,115 @@
+Body{
+font-family: 'ABeeZee', sans-serif;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#title{
+  background-color: #ff4c68;
+  z-index: -1;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.btn-lg{
+margin: 5% 3% 5% 0;
+}
+.title-img{
+ width: 60%;
+ transform: rotate(30deg);
+ position: absolute;
+}
+
+h1{
+  font-family:  'Lilita One', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.test-h2{
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+}
+.pricing-h2{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #ff4c68;
+}
+#features{
+  text-align: center;
+  /* padding:7% 15%; */
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.features-design{
+   padding:0 10%;
+}
+.feature-icon{
+ font-size: 4rem;
+ color: #ff4c68;
+}
+.feature-icon:hover{
+  color: red;
+}
+#testimonials{
+  text-align: center;
+  background-color:  #ff4c68;
+}
+.img1{
+  border-radius: 100%;
+  width: 20%;
+  margin:2rem;
+}
+#press{
+  background-color:  #ff4c68;
+  text-align: center;
+}
+.press-img{
+  width: 10%;
+  margin:2rem;
+}
+.carousel-item{
+  padding: 3% 15%;
+}
+#pricing{
+  padding: 3% 15%;
+  text-align: center;
+}
+.card-deck{
+  padding-top: 4rem;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 3% 15%;
+}
+#footer{
+  text-align: center;
+    padding: 3% 15%;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+   transform: rotate(0);
+   position: static;
+  }
+}
